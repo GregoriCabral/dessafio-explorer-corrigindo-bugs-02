@@ -15,16 +15,21 @@ body {
   }
   
   nav {
+    font-family: "Mulish", sans-serif;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
   
-    margin-bottom: 58px;
+    margin-bottom: 55px;
+
   }
   
   ul {
     display: flex;
     list-style: none;
+    margin: 0;
+    padding: 0;
     gap: 48px;
   }
   
@@ -53,7 +58,7 @@ body {
   
     font-weight: normal;
   
-    width: 489px;
+    width: 490px;
   }
   
   h1 span {
@@ -65,7 +70,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 102px;
   }
   
   section p {
@@ -74,12 +78,13 @@ body {
     color: #7d7987;
     width: 438px;
 
-    margin-bottom: 40px;
+    margin: 40px 0;
   }
   
   button {
     color: white;
     font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
   
     background: #69B99D;
     border: 0;
@@ -87,7 +92,7 @@ body {
     padding: 14px 32px 15px;
   
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 10px;
   
